@@ -17,3 +17,59 @@
 		</nav>
 	    <img id="banner" align="middle" src="./imagens/macarron.jpg">
     </header>
+
+    <body>
+        <div class="container_form">
+
+            <h1 class="title_contato"><i class="icon icon-file-text-o"></i> Fale Conosco</h1>
+            
+            <form method="post" action="#">
+    
+                <div class="style-form-input full">
+                    <input type="text" name="nome" required />
+                    <label><i class="icon icon-user-1"></i>  Nome</label> 
+                </div>
+    
+                
+                <div class="style-form-input">
+                    <input type="text" name="email" required />
+                    <label><i class="icon icon-mail-1"></i> E-mail</label> 
+                </div>
+    
+                
+                <div class="style-form-input right">
+                    <input type="text" name="assunto" required />
+                    <label><i class="icon icon-info-circled"></i> Assunto</label> 
+                </div>
+    
+                <div class="style-form-input full">
+                
+                    <select name="estadocivil" class="dropdown select_form" required>
+                    
+                    <option selected disabled class="form_select_option" value="">Sugestão de Artigos ?</option>
+                    <option value="Html5" class="form_select_option">Html5</option>
+                    <option value="Css3" class="form_select_option">Css3 </option>
+                    <option value="jQuery" class="form_select_option">jQuery</option>                    
+                    <option value="WordPress" class="form_select_option">WordPress</option>                    
+                
+                    </select>
+    
+                </div>    
+                
+                <div class="style-form-input full">
+                    <textarea name="mensagem" required></textarea>
+                    <label><i class="icon icon-comments"></i> Mensagem</label>
+                </div>
+    
+    
+                <div class="style-form-input full">
+    
+                    <input type="hidden" name="acao" value="enviar">
+                    <button class="btn-submit">Enviar mensagem</button>
+                
+                </div>
+    
+            </form>
+    
+        </div>
+    </body>
