@@ -20,6 +20,11 @@ nav a {
 	color: crimson;
 }
 
+nav a:hover{
+	color: darkmagenta;
+	
+}
+
 body {
 	background: rgb(255, 153, 209);
 	margin: 0;
