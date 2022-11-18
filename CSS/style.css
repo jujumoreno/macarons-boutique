@@ -6,6 +6,20 @@ nav li {
 	padding-right: 5%;
 }
 
+nav {
+	width: 940px;
+	top: 5px;
+	right: 15px;
+	background-color: cornflowerblue;
+}
+
+nav a {
+	font-weight: lighter;
+	font-size: 35px;
+	text-decoration: none;
+	color: bisque;
+}
+
 body {
 	background: rgb(255, 153, 209);
 	margin: 0;
